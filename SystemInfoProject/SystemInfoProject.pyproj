@@ -26,12 +26,14 @@
     <Compile Include="src\sisdiag\report.py" />
     <Compile Include="src\sisdiag\_init_.py" />
     <Compile Include="SystemInfoProject.py" />
+    <Compile Include="tests\test_collect.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requierments.txt" />
     <Content Include="templates\report.html" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="tests\" />
     <Folder Include="reports\" />
     <Folder Include="templates\" />
     <Folder Include="src\" />
