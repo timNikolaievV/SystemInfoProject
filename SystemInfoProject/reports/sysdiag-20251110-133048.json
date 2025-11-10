@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-11-10T12:30:47.119846Z",
+  "os": {
+    "system": "Windows",
+    "node": "DESKTOP-R70I9RT",
+    "release": "10",
+    "version": "10.0.19045",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 158 Stepping 9, GenuineIntel",
+    "python_version": "3.12.7"
+  },
+  "uptime": {
+    "boot_time_iso": "2025-11-01T02:43:23.120844",
+    "uptime_seconds": 816444,
+    "uptime_human": "226h 47m"
+  },
+  "cpu": {
+    "physical_cores": 4,
+    "total_cores": 8,
+    "freq_mhz": 4200.0,
+    "percent": 1.7,
+    "loadavg": {
+      "1min": 0.0,
+      "5min": 0.0,
+      "15min": 0.0
+    }
+  },
+  "memory": {
+    "ram": {
+      "total": 8525746176,
+      "available": 1304608768,
+      "used": 7221137408,
+      "percent": 84.7
+    },
+    "swap": {
+      "total": 20552732672,
+      "used": 7260356608,
+      "percent": 35.3
+    }
+  },
+  "disks": [],
+  "network": {
+    "interfaces": {
+      "Local Area Connection": {
+        "ips": [
+          {
+            "family": "AF_INET",
+            "address": "169.254.114.87"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "fe80::de5c:6459:e335:1f45"
+          }
+        ],
+        "bytes_sent": 0,
+        "bytes_recv": 0
+      },
+      "Ethernet": {
+        "ips": [
+          {
+            "family": "AF_INET",
+            "address": "192.168.0.122"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "2a02:a317:e0ba:9600:e381:7ef:ea98:eb27"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "2a02:a317:e0ba:9600:87:1f25:d1f1:751b"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "2a02:a317:e0ba:9600:579:30d1:9351:41de"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "2a02:a317:e0ba:9600:28b5:91be:e73f:1feb"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "2a02:a317:e0ba:9600:4cea:46b5:2859:3785"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "2a02:a317:e0ba:9600:9884:2cba:3aaf:d5f1"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "2a02:a317:e0ba:9600:d950:b3d9:b2dc:76cb"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "fe80::31d5:8e49:336d:ae6b"
+          }
+        ],
+        "bytes_sent": 137167823,
+        "bytes_recv": 1090703920
+      },
+      "OpenVPN Connect DCO Adapter": {
+        "ips": [
+          {
+            "family": "AF_INET",
+            "address": "169.254.236.50"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "fe80::3d8e:9088:9e21:7904"
+          }
+        ],
+        "bytes_sent": 0,
+        "bytes_recv": 0
+      },
+      "Loopback Pseudo-Interface 1": {
+        "ips": [
+          {
+            "family": "AF_INET",
+            "address": "127.0.0.1"
+          },
+          {
+            "family": "AF_INET6",
+            "address": "::1"
+          }
+        ],
+        "bytes_sent": 0,
+        "bytes_recv": 0
+      }
+    },
+    "ping_ok": true,
+    "ping_stdout": "Pinging 8.8.8.8 with 32 bytes of data:\nReply from 8.8.8.8: bytes=32 time=22ms TTL=116\n\nPing statistics for 8.8.8.8:\n    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 22ms, Maximum = 22ms, Average = 22ms",
+    "ping_stderr": ""
+  },
+  "top_processes": [
+    {
+      "name": "System Idle Process",
+      "cpu_percent": 0.0,
+      "pid": 0,
+      "username": "NT AUTHORITY\\SYSTEM",
+      "memory_percent": 9.608543147883645e-05
+    },
+    {
+      "name": "System",
+      "cpu_percent": 0.0,
+      "pid": 4,
+      "username": "NT AUTHORITY\\SYSTEM",
+      "memory_percent": 0.061734889725152425
+    },
+    {
+      "name": "Registry",
+      "cpu_percent": 0.0,
+      "pid": 124,
+      "username": null,
+      "memory_percent": 0.7134823714461002
+    },
+    {
+      "name": "smss.exe",
+      "cpu_percent": 0.0,
+      "pid": 476,
+      "username": null,
+      "memory_percent": 0.004996442436899496
+    },
+    {
+      "name": "svchost.exe",
+      "cpu_percent": 0.0,
+      "pid": 528,
+      "username": null,
+      "memory_percent": 0.2193149973504442
+    },
+    {
+      "name": "steamwebhelper.exe",
+      "cpu_percent": 0.0,
+      "pid": 572,
+      "username": "DESKTOP-R70I9RT\\timka",
+      "memory_percent": 0.20398937102956982
+    },
+    {
+      "name": "csrss.exe",
+      "cpu_percent": 0.0,
+      "pid": 628,
+      "username": null,
+      "memory_percent": 0.024309614164145624
+    },
+    {
+      "name": "AMDRSServ.exe",
+      "cpu_percent": 0.0,
+      "pid": 648,
+      "username": "DESKTOP-R70I9RT\\timka",
+      "memory_percent": 1.2294130957717124
+    },
+    {
+      "name": "wininit.exe",
+      "cpu_percent": 0.0,
+      "pid": 756,
+      "username": null,
+      "memory_percent": 0.032717089418543815
+    },
+    {
+      "name": "services.exe",
+      "cpu_percent": 0.0,
+      "pid": 828,
+      "username": null,
+      "memory_percent": 0.08897510954940256
+    }
+  ]
+}

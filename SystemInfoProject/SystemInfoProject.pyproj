@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c11c50d0-b506-4a61-841b-2052838096c0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SystemInfoProject.py</StartupFile>
+    <StartupFile>run_sysdiag.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\sisdiag\cli.py" />
-    <Compile Include="src\sisdiag\collect.py" />
-    <Compile Include="src\sisdiag\report.py" />
-    <Compile Include="src\sisdiag\_init_.py" />
+    <Compile Include="run_sysdiag.py" />
+    <Compile Include="sysdiag\cli.py" />
+    <Compile Include="sysdiag\collect.py" />
+    <Compile Include="sysdiag\report.py" />
+    <Compile Include="sysdiag\_init_.py" />
     <Compile Include="SystemInfoProject.py" />
     <Compile Include="tests\test_collect.py" />
   </ItemGroup>
@@ -36,8 +37,7 @@
     <Folder Include="tests\" />
     <Folder Include="reports\" />
     <Folder Include="templates\" />
-    <Folder Include="src\" />
-    <Folder Include="src\sisdiag\" />
+    <Folder Include="sysdiag\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

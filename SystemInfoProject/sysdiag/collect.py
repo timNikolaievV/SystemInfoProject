@@ -3,6 +3,7 @@ import platform, socket, time, json, subprocess
 from datetime import datetime
 from typing import Any, Dict, List
 import psutil
+import os
 
 def _safe_run(cmd: List[str], timeout: int = 3):
     try:
@@ -67,13 +68,23 @@ def get_memory_info():
 def get_disks_info():
     disks = []
     for part in psutil.disk_partitions(all=False):
-        try:
-            usage = psutil.disk_usage(part.mountpoint)
-        except PermissionError:
+        mp = part.mountpoint
+
+        if not mp or not isinstance(mp, str):
             continue
+    
+        if not os.path.exists(mp):
+            continue
+
+        try:
+            usage = psutil.disk_usage(mp)
+        except Exception as e:
+
+            continue
+
         disks.append({
             "device": part.device,
-            "mountpoint": part.mountpoint,
+            "mountpoint": mp,
             "fstype": part.fstype,
             "total": usage.total,
             "used": usage.used,
