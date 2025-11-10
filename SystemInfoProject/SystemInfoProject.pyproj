@@ -21,10 +21,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="src\sisdiag\cli.py" />
+    <Compile Include="src\sisdiag\collect.py" />
+    <Compile Include="src\sisdiag\report.py" />
+    <Compile Include="src\sisdiag\_init_.py" />
     <Compile Include="SystemInfoProject.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requierments.txt" />
+    <Content Include="templates\report.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="reports\" />
+    <Folder Include="templates\" />
+    <Folder Include="src\" />
+    <Folder Include="src\sisdiag\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
